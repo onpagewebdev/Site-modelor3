@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sabor & Arte - Restaurante com pratos artesanais preparados com ingredientes frescos e muito amor. Reserve sua mesa pelo WhatsApp.">
+    <title>Sabor & Arte | Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">Sabor & Arte</a>
+            <nav class="nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer uma reserva." class="btn btn-header" target="_blank" rel="noopener">
+                Reservar Mesa
+            </a>
+            <button class="mobile-menu-btn" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">Desde 2010</span>
+            <h1>Sabores que<br>Contam Histórias</h1>
+            <p>Cada prato é uma obra de arte preparada com ingredientes frescos, técnicas refinadas e todo o carinho que você merece.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer uma reserva." class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                    Reservar pelo WhatsApp
+                </a>
+                <a href="#cardapio" class="btn btn-secondary">Ver Cardápio</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Deslize para descobrir</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="interior.jpg" alt="Interior aconchegante do restaurante Sabor & Arte" loading="lazy">
+                </div>
+                <div class="about-content">
+                    <span class="section-badge">Nossa História</span>
+                    <h2>Um Lugar Onde Cada Detalhe Importa</h2>
+                    <p>Há mais de 14 anos, o Sabor & Arte nasceu de um sonho: criar experiências gastronômicas inesquecíveis em um ambiente acolhedor e intimista.</p>
+                    <p>Nossa cozinha combina técnicas tradicionais com toques contemporâneos, sempre priorizando ingredientes frescos e de produtores locais.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-number">14+</div>
+                            <div class="feature-text">Anos de tradição</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-number">50k+</div>
+                            <div class="feature-text">Clientes satisfeitos</div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-number">100%</div>
+                            <div class="feature-text">Ingredientes frescos</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="cardapio" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nossos Pratos</span>
+                <h2>Destaques do Cardápio</h2>
+                <p>Selecionamos alguns dos nossos pratos mais amados pelos clientes</p>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="pasta.jpg" alt="Massa artesanal com molho de tomates frescos" loading="lazy">
+                        <span class="menu-card-badge">Favorito</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Pasta della Nonna</h3>
+                        <p>Massa artesanal com molho de tomates frescos, manjericão e parmesão envelhecido</p>
+                        <div class="menu-card-footer">
+                            <span class="price">R$ 58,90</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="salmao.jpg" alt="Salmão grelhado com ervas finas" loading="lazy">
+                        <span class="menu-card-badge">Chef</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Salmão do Atlântico</h3>
+                        <p>Salmão grelhado na perfeição com ervas finas, limão siciliano e legumes da estação</p>
+                        <div class="menu-card-footer">
+                            <span class="price">R$ 89,90</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="menu-card">
+                    <div class="menu-card-image">
+                        <img src="chocolate.jpg" alt="Mousse de chocolate belga com frutas vermelhas" loading="lazy">
+                        <span class="menu-card-badge">Doce</span>
+                    </div>
+                    <div class="menu-card-content">
+                        <h3>Tentação Belga</h3>
+                        <p>Mousse aveludado de chocolate belga 70% com coulis de frutas vermelhas</p>
+                        <div class="menu-card-footer">
+                            <span class="price">R$ 32,90</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="menu-cta">
+                <p>Quer conhecer o cardápio completo?</p>
+                <a href="https://wa.me/5511999999999?text=Olá! Gostaria de receber o cardápio completo." class="btn btn-primary" target="_blank" rel="noopener">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                    Solicitar Cardápio Completo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Avaliações</span>
+                <h2>O Que Dizem Nossos Clientes</h2>
+            </div>
+            <div class="testimonials-grid">
+                <blockquote class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p>"Uma experiência gastronômica incrível! A pasta della nonna é simplesmente divina. Ambiente aconchegante e atendimento impecável."</p>
+                    <footer>
+                        <strong>Marina Costa</strong>
+                        <span>Cliente há 3 anos</span>
+                    </footer>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p>"O melhor restaurante da região! Comemorei meu aniversário de casamento aqui e foi perfeito. O salmão derrete na boca!"</p>
+                    <footer>
+                        <strong>Ricardo Mendes</strong>
+                        <span>Cliente frequente</span>
+                    </footer>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p>"Vim pelo Instagram e não me arrependi! As fotos não fazem jus à qualidade real dos pratos. Voltarei muitas vezes!"</p>
+                    <footer>
+                        <strong>Ana Beatriz</strong>
+                        <span>Primeira visita</span>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contato" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <span class="section-badge section-badge-light">Reserve Agora</span>
+                <h2>Pronto Para uma Experiência Inesquecível?</h2>
+                <p>Reserve sua mesa em segundos pelo WhatsApp. Estamos esperando você!</p>
+                <a href="https://wa.me/5511999999999?text=Olá! Gostaria de fazer uma reserva para o restaurante Sabor %26 Arte." class="btn btn-whatsapp" target="_blank" rel="noopener">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                    Reservar Mesa Agora
+                </a>
+                <div class="cta-info">
+                    <div class="cta-info-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                        </svg>
+                        <span>Seg - Dom: 11h às 23h</span>
+                    </div>
+                    <div class="cta-info-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Rua das Flores, 123 - Centro</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">Sabor & Arte</a>
+                <p>Onde cada refeição se transforma em uma memória especial.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Links</h4>
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p>(11) 99999-9999</p>
+                <p>contato@saborarte.com.br</p>
+                <p>Rua das Flores, 123 - Centro</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Sabor & Arte. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre o restaurante." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Fale conosco pelo WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const nav = document.querySelector('.nav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            mobileMenuBtn.classList.toggle('active');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    nav.classList.remove('active');
+                    mobileMenuBtn.classList.remove('active');
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
